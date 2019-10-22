@@ -1,7 +1,7 @@
 'use strict';
 
 const { server } = require('../lib/server.js');
-const supertester = require('./supertester.js');
+const supertester = require('../__mockes__/supertester.js');
 // jest.mock()
 
 const mockRequest = supertester(server);
