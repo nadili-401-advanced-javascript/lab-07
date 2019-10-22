@@ -1,4 +1,6 @@
-node_modules/**
-model.js
-index.js
-model.test.js
+**/node_modules/*
+**/*.min.js
+**/vendor/*
+**/coverage/*
+**/build/*
+**/docs/*
