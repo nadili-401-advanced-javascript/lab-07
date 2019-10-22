@@ -7,6 +7,7 @@
 ### Links and Resources
 * [submission PR](https://github.com/nadili-401-advanced-javascript/lab-07/pull/1)
 * [travis](https://travis-ci.com/nadili-401-advanced-javascript/lab-07)
+* [travis](https://travis-ci.com/nadili-401-advanced-javascript/lab-07)
 
 ### Modules
 #### `server.js`
