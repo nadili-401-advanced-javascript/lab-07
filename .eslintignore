@@ -1,6 +1,4 @@
-**/node_modules/*
-**/*.min.js
-**/vendor/*
-**/coverage/*
-**/build/*
-**/docs/*
+node_modules/**
+server.js
+supertester.js
+server.test.js
