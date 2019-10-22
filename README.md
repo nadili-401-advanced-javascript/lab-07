@@ -8,6 +8,7 @@
 * [submission PR](https://github.com/nadili-401-advanced-javascript/lab-07/pull/1)
 * [travis](https://travis-ci.com/nadili-401-advanced-javascript/lab-07)
 * [heroku](https://nadili-lab-07.herokuapp.com/)
+* [swagger docs](https://app.swaggerhub.com/apis/NadyaIlinskiy/lab-07/1.0.0)
 
 ### Modules
 #### `server.js`
