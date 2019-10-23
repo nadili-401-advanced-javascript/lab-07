@@ -7,16 +7,6 @@ let db = require('../__data__/db.js');
 
 app.use(express.json());
 
-/**
- * Get a list of records for a given model
- * Model must be a proper model, located within the ../models folder
- * @route GET /api/v1/{model}
- * @param {model} model.path - Model Name
- * @security basicAuth
- * @returns {object} 200 { count: 2, results: [ {}, {} ] }
- * @returns {Error}  500 - Server error
- */
-
 // Default Route
 app.get('/', (req, res, next) => {
   res.send('Hello honey, I\'m HOME!');
@@ -44,14 +34,6 @@ app.get('/people/:id', (req, res, next) => {
   let record = db.people.filter(record => record.id === parseInt(id));
   res.json(record[0]);
 });
-
-/**
- * @route POST /api/v1/:model
- * Model must be a proper model, located within the ../models folder
- * @param {model} model.path.required
- * @returns {object} 200 - Count of results with an array of results
- * @returns {Error}  500 - Unexpected error
- */
 
 // Route to Create a person
 app.post('/people', (req, res, next) => {

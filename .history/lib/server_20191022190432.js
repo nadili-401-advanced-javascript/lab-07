@@ -45,14 +45,6 @@ app.get('/people/:id', (req, res, next) => {
   res.json(record[0]);
 });
 
-/**
- * @route POST /api/v1/:model
- * Model must be a proper model, located within the ../models folder
- * @param {model} model.path.required
- * @returns {object} 200 - Count of results with an array of results
- * @returns {Error}  500 - Unexpected error
- */
-
 // Route to Create a person
 app.post('/people', (req, res, next) => {
   let record = req.body;
